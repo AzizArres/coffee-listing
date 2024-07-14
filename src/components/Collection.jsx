@@ -36,7 +36,7 @@ export default function Collection(){
                 </div>
                 <div className="coffee-element-division">
                     {coffee.votes === 0 ? (<div className="no-ratings"><img src={whiteStar} className="white-star" /><label>No ratings</label></div>) : (<div className="coffee-votes">
-                        <img src="/src/assets/star.png" />
+                        <img src={star} />
                         <label className="coffee-rating">{coffee.rating}</label>
                         <label>({coffee.votes} votes)</label>
                     </div>)
