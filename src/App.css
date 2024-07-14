@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container{
+  background: url('./src/assets/bg-cafe.jpg') no-repeat fixed center top;
+  background-color: #111315;
+  background-size: 100% 350px;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.collection{
+  z-index: 1;
+  width: 80%;
+  background: #1B1D1F;
+  margin-top: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collection h2{
+  margin-top: 80px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.collection p{
+  color: #ccc;
+  width: 50%;
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 23px;
+}
+
+.collection .buttons{
+  margin-top: 30px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.collection .buttons button{
+  border: none;
+  padding: 7px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.coffee-collection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 100px;
+}
+
+.coffee-element{
+  margin: 20px;
+  height: 300px;
+}
+
+.coffee-image{
+  border-radius: 7px;
+}
+
+.coffee-name{
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.coffee-price{
+  font-size: 14px;
+  background-color: #BEE3CC;
+  margin-left: 65px;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+p{
+  display: inline-block;
+}
+
+.coffee-votes img, .white-star {
+  width: 20px;
+  margin-right: 7px;
+}
+
+.coffee-votes{
+  color: #6F757C;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.coffee-rating{
+  margin-right: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.no-ratings{
+  color: #6F757C;
+}
+
+.popular{
+  font-size: 10px;
+  background-color: #F6C768;
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+  margin: 10px;
+}
+
+.active-button{
+  background-color: #6F757C;
+
+}
