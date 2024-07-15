@@ -6,7 +6,7 @@ import whiteStar from "/src/assets/white-star.png"
 export default function Collection(){
 
     const [coffees, setCoffees] = React.useState([])
-    const [all, setAll] = React.useState(false)
+    const [all, setAll] = React.useState(true)
 
     React.useEffect(() => {
 
